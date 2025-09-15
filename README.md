@@ -11,6 +11,12 @@ This repository serves as a detailed showcase of the comprehensive AI Agent and 
 
 ### My Role & Key Contributions
 
+<p align="center">
+  <img src="assets/team.jpeg" alt="Team Structure" width="600"/>
+  <br>
+  <em>Official team structure from our final presentation, highlighting my role on the RAG Studio team.</em>
+</p>
+
 As an AI Academy Intern, I was deeply involved in the entire development lifecycle. I played an integral role in architectural design and hands-on implementation, focusing on building a system that was not just functional but also scalable, reliable, and extensible.
 
 *   **System Architecture:** I took a leading role in key architectural decisions, championing the use of the **Strategy design pattern** to create a modular system. This allowed for pluggable components for RAG methods, document chunking, and evaluation, which accelerated our experimentation cycles by **3x**.
