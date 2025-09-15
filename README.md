@@ -5,7 +5,7 @@ This repository serves as a detailed showcase of the comprehensive AI Agent and 
 **Note:** The source code for this project is proprietary to Abysalto and cannot be shared publicly. This repository serves as a detailed portfolio piece to document the project's architecture, my technical contributions, and the results achieved.
 
 <p align="center">
-  <img src="assets/image-1.jpeg" alt="AI Agent Factory Project Banner"/>
+  <img src="assets/title.png" alt="AI Agent Factory Project Banner"/>
 </p>
 ---
 
