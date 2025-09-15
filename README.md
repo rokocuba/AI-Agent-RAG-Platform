@@ -70,11 +70,16 @@ This architecture allowed for a high degree of control and optimization at each 
 While my focus was on the backend, our team developed a comprehensive UI for configuration and testing. Below is a screenshot of the Evaluation dashboard, which allowed us to benchmark the performance and relevance of different RAG method configurations.
 
 <p align="center">
-  <img src="assets/front-eval.jpg" alt="Evaluation Dashboard UI" width="700"/>
+  <img src="assets/front-eval.jpg" alt="Evaluation Dashboard UI" width="1000"/>
   <br>
   <em>The test results dashboard, showing performance metrics for different RAG methods.</em>
 </p>
 
+<p align="center">
+  <img src="assets/front.jpg" alt="Agent Playground UI" width="1000"/>
+  <br>
+  <em>The "Agent Playground" user interface, which was powered by the backend services I developed. It demonstrates the core chat functionality with a test agent in Croatian, where the user asks "Kako si danas?" ("How are you today?").</em>
+</p>
 ---
 
 ### Tech Stack
