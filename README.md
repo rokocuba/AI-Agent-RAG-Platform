@@ -40,7 +40,7 @@ The system follows a standard three-tier architecture, with a clear separation b
 
 #### 2. The Strategy Design Pattern
 
-A core architectural decision was the extensive use of the Strategy pattern. This allowed us to treat different RAG elements—such as Chunking Methods, Retrieval Methods, and Evaluation Methods—as interchangeable "strategies." This decoupled the core logic from specific implementations, making the system incredibly flexible and easy to extend.
+A core architectural decision was the extensive use of the Strategy pattern (*Oblikovni obrazac Strategija*). This diagram shows how the main Service (*Servis*) uses a common Interface (*Sučelje*) to interact with interchangeable strategies (*Strategija1, 2, 3*). This decoupled the core logic from specific implementations of our RAG and chunking methods, making the system incredibly flexible.
 
 <p align="center">
   <img src="assets/strategy.jpg" alt="Strategy Design Pattern for RAG" width="900"/>
@@ -50,7 +50,11 @@ A core architectural decision was the extensive use of the Strategy pattern. Thi
 
 #### 3. Advanced Retrieval-Augmented Generation (RAG) System
 
-The platform featured a sophisticated RAG system with nine distinct retrieval strategies, allowing users to select the optimal method for their specific use case.
+The platform featured a sophisticated RAG system with nine distinct retrieval strategies (*RAG metode/strategije*), allowing users to select the optimal method for their specific use case, as shown in the presentation slide below.
+
+<p align="center">
+  <img src="assets/rag.jpg" alt="List of RAG Methods" width="700"/>
+</p>
 
 *   **Multi-Vector Embeddings:** We stored separate embeddings for document content, generated summaries, and potential questions, enabling more nuanced and accurate semantic search.
 *   **Specialized Retrieval Methods:** Included strategies like `Multi-Query RAG` (using LLMs for query expansion), `Hybrid Meta RAG` (combining semantic search with keyword filtering), and `Graph-Walk RAG` (exploring relationships between document chunks).
