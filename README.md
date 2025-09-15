@@ -43,7 +43,7 @@ The system follows a standard three-tier architecture, with a clear separation b
 A core architectural decision was the extensive use of the Strategy pattern. This allowed us to treat different RAG elements—such as Chunking Methods, Retrieval Methods, and Evaluation Methods—as interchangeable "strategies." This decoupled the core logic from specific implementations, making the system incredibly flexible and easy to extend.
 
 <p align="center">
-  <img src="assets/strategy.jpeg" alt="Strategy Design Pattern for RAG" width="900"/>
+  <img src="assets/strategy.jpg" alt="Strategy Design Pattern for RAG" width="900"/>
   <br>
   <em>Diagram illustrating how the Strategy pattern was applied to the core components of the RAG system.</em>
 </p>
@@ -62,7 +62,7 @@ The platform featured a sophisticated RAG system with nine distinct retrieval st
 While my focus was on the backend, our team developed a comprehensive UI for configuration and testing. Below is a screenshot of the Evaluation dashboard, which allowed us to benchmark the performance and relevance of different RAG method configurations.
 
 <p align="center">
-  <img src="assets/image-15.jpeg" alt="Evaluation Dashboard UI" width="700"/>
+  <img src="assets/front.jpg" alt="Evaluation Dashboard UI" width="700"/>
   <br>
   <em>The test results dashboard, showing performance metrics for different RAG methods.</em>
 </p>
