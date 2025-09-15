@@ -12,7 +12,7 @@ This repository serves as a detailed showcase of the comprehensive AI Agent and 
 ### My Role & Key Contributions
 
 <p align="center">
-  <img src="assets/team.jpeg" alt="Team Structure" width="600"/>
+  <img src="assets/team.jpg" alt="Team Structure" width="600"/>
   <br>
   <em>Official team structure from our final presentation, highlighting my role on the RAG Studio team.</em>
 </p>
