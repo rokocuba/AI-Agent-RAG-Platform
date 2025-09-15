@@ -12,7 +12,7 @@ This repository serves as a detailed showcase of the comprehensive AI Agent and 
 ### My Role & Key Contributions
 
 <p align="center">
-  <img src="assets/team.jpg" alt="Team Structure" width="600"/>
+  <img src="assets/team.jpg" alt="Team Structure" width="900"/>
   <br>
   <em>Official team structure from our final presentation, highlighting my role on the RAG Studio team.</em>
 </p>
@@ -35,7 +35,7 @@ The platform was built with a focus on modern software architecture and cutting-
 The system follows a standard three-tier architecture, with a clear separation between the frontend, a robust backend handling all business logic, and the database. The backend also acts as an orchestration layer for external services like the OpenAI API.
 
 <p align="center">
-  <img src="assets/architecture.jpg" alt="High-Level System Architecture" width="600"/>
+  <img src="assets/architecture.jpg" alt="High-Level System Architecture" width="900"/>
 </p>
 
 #### 2. The Strategy Design Pattern
